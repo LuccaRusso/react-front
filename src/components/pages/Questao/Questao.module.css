@@ -1,0 +1,165 @@
+.body {
+    background-image: url(../../../assets/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* Caixa */
+    & .caixa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        position: relative;
+
+        & .pergunta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80vw;
+            height: 90%;
+            gap: 20px;
+            padding: 20px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            background-color: #11C76F;
+            box-shadow: 5px 5px 10px;
+            border-radius: 50px;
+            overflow: hidden;
+            box-sizing: border-box;
+            overflow-y: auto;
+            overflow-x: hidden;
+
+            & h1 {
+                color: white;
+            }
+
+            & img {
+                margin: 25px;
+                width: 15vh;
+            }
+
+            & .container {
+                display: flex;
+                justify-items: center;
+                padding-top: 10vh;
+
+                & .questao {
+                    flex: 1;
+                    text-align: center;
+                    font-size: 1rem;
+                    line-height: 1.5;
+
+                    & p {
+                        color: #ffff;
+                        font-size: 2.08vw;
+                    }
+                }
+            }
+
+            /* Alternativa */
+            & .alternativa {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+                width: 100%;
+                box-sizing: border-box;
+
+                /* Valores */
+                & .humildade {
+                    background-color: #1B9BC7;
+                    color: #FFFF;
+                    font-size: 2vh;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                & .humildade:hover {
+                    background-color: #FFFF;
+                    color: #000;
+                }
+
+                & .atitude {
+                    background-color: #1585B4;
+                    color: #FFFF;
+                    font-size: 2vh;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                & .atitude:hover {
+                    background-color: #FFFF;
+                    color: #000;
+                }
+
+                & .simplicidade {
+                    background-color: #169B50;
+                    color: #FFFF;
+                    font-size: 2vh;
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                & .simplicidade:hover {
+                    background-color: #FFFF;
+                    color: #000;
+                }
+
+                & .disponibilidade {
+                    background-color: #E86339;
+                    color: #FFFF;
+                    font-size: 2vh;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                & .disponibilidade:hover {
+                    background-color: #FFFF;
+                    color: #000;
+                }
+
+                & .franqueza {
+                    background-color: #D5202A;
+                    color: #FFFF;
+                    font-size: 2vh;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                & .franqueza:hover {
+                    background-color: #FFFF;
+                    color: #000;
+                }
+
+                & .disciplina {
+                    background-color: #EF933B;
+                    color: #FFFF;
+                    font-size: 2vh;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                & .disciplina:hover {
+                    background-color: #FFFF;
+                    color: #000;
+                }
+
+                & .determinacao {
+                    background-color: #79AB5C;
+                    color: #FFFF;
+                    font-size: 2vh;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                & .determinacao:hover {
+                    background-color: #FFFF;
+                    color: #000;
+                }
+
+            }
+        }
+    }
+}

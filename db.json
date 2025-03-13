@@ -1,0 +1,24 @@
+{
+    "atitude":[
+        {
+            "_id": 1,
+            "question": "Qual valor pega a responsabilidade para si e toma a frente?",
+            "answer": "atitude"
+        }
+    ],
+    "determinacao":[
+        {
+            "_id": "2",
+            "question": "Quando se tem certeza de que seus objetivos, alvos e metas serão alcançados.",
+            "answer": "determinacao"
+        }
+    ],
+    "disciplina":[
+        {
+            "_id": "3",
+            "question": "Sempre cumpre o combinado.",
+            "answer": "disciplina"
+          }
+          
+    ]    
+}

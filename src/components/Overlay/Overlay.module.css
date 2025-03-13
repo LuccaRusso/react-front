@@ -1,0 +1,57 @@
+/* tutorial */
+.tutorial {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    width: 50%;
+    max-height: 70vh; /* Limitar a altura máxima */
+    background-color: #FFFF;
+    box-shadow: 5px 5px 10px;
+    position: fixed; /* Fixar na janela de visualização */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centralizar */
+    overflow-y: auto; /* Habilitar rolagem vertical */
+    overflow-x: hidden; /* Evitar rolagem horizontal */
+    z-index: 1;
+    padding: 1rem; /* Adicionar espaçamento interno */
+
+    & p {
+        color: #136C4C;
+        font-size: 2.5vh;
+        padding: 1vh;
+    }
+    
+    & .image {
+        width: 40vh;
+        height: 40vh;
+    }
+}
+
+/* regra */
+.regra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    width: 40%;
+    height: 70vh;
+    background-color: #FFFF;
+    box-shadow: 5px 5px 10px;
+    position: fixed; /* Fixar na janela de visualização */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centralizar */
+    overflow-y: auto; /* Habilita a rolagem vertical */
+    overflow-x: hidden; /* Evita a rolagem horizontal */
+    z-index: 1;
+
+    & p {
+        color: #136C4C;
+        font-size: 2.5vh;
+        padding: 2vh;
+    }
+    
+}

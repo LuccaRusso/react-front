@@ -1,0 +1,106 @@
+.body {
+    background-image: url(../../../assets/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* Container */
+    & .container {
+        display: flex;
+        justify-content: center;
+        /* Centraliza horizontalmente */
+        align-items: center;
+        /* Centraliza verticalmente */
+        height: 90vh;
+        /* Ocupa toda a altura da tela */
+        position: relative;
+
+        /* Button */
+        & button {
+            padding: clamp(8px, 2vw, 15px) clamp(10px, 2vw, 20px);
+            border: none;
+            cursor: pointer;
+            font-size: clamp(14px, 2.5vh, 18px);
+            background-color: #11C76F;
+            border-radius: 5px;
+            color: #FFFF;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-block;
+            text-align: center;
+        }
+
+        & button:hover {
+            background-color: #D0D0D0;
+            color: #238662;
+        }
+
+        @media (max-width: 600px) {
+            button {
+                padding: clamp(6px, 4vw, 10px) clamp(8px, 4vw, 15px);
+                font-size: clamp(12px, 2.5vw, 16px);
+            }
+        }
+
+        @media (min-width: 1200px) {
+            button {
+                font-size: clamp(16px, 1.5vh, 20px);
+            }
+        }
+    }
+
+    & .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        background-color: #11C76F;
+        height: 90%;
+        box-shadow: 5px 5px 10px;
+        width: 80vw;
+        border-radius: 50px;
+        overflow: hidden;
+        /* Garante que nada "vaze" da div */
+        padding: 20px;
+        /* Espaço interno para evitar toques nos limites */
+        box-sizing: border-box;
+        /* Inclui padding na largura/altura */
+        overflow-y: auto;
+        /* Habilita a rolagem vertical */
+        overflow-x: hidden;
+        /* Evita a rolagem horizontal */
+
+        & p {
+            color: #ffff;
+            font-size: 2.08vw;
+            font-weight: bold;
+        }
+
+        & input {
+            border: none;
+            border-radius: 5px;
+            padding: 0.5vw;
+        }
+
+        & .restart {
+            margin-top: 2vw;
+            font-size: 2vw;
+            background-color: #FFFF;
+            color: #11C76F;
+        }
+
+        & h1 {
+            color: #FFFF;
+            font-size: 4vw;
+        }
+
+        & .message{
+            color: #DE0000;
+            font-size: 1.5vw;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #FFFF;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    /* Necessário para o z-index funcionar */
+
+    & img {
+        height: 3rem;
+        max-width: 100%;
+        /* Garante que o logo não ultrapasse a largura disponível */
+        cursor: pointer;
+    }
+
+    & button {
+        border: none;
+        cursor: pointer;
+        background: none;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: #136C4C;
+        text-decoration: none;
+        margin: 0 0.5rem;
+        /* Controla espaçamento entre botões */
+        white-space: nowrap;
+        /* Evita quebra de texto */
+    }
+
+    & button:hover {
+        background-color: #D0D0D0;
+        color: #238662;
+    }
+
+    & input{
+        border: none;
+        background: none;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: #136C4C;
+        text-decoration: none;
+        margin: 0 0.5rem; 
+        white-space: nowrap;
+        width: 100px;
+    }  
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,700;1,700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  user-select: none;
+}
+
+/* Estiliza a barra do scroll */
+::-webkit-scrollbar {
+  width: 10px; /* Largura do scroll vertical */
+  height: 10px; /* Altura do scroll horizontal */
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Cor de fundo */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* A "thumb" é a parte que desliza */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Cor do "thumb" */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para quando o "thumb" está sendo clicado */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cor ao passar o mouse */
+}

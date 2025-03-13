@@ -1,0 +1,75 @@
+.body {
+    background-image: url(../../../assets/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Caixa */
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    position: relative;
+}
+
+.pergunta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    height: 90%;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #11C76F;
+    box-shadow: 5px 5px 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    & .reset {
+        margin-top: 2vw;
+        font-size: 2vw;
+        background-color: #FFFF;
+        color: #11C76F;
+
+        
+    }
+
+    & reset:hover{
+        background-color: #11C76F;
+        color: #FFFF;
+    }
+
+    & p {
+        color: #ffff;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+
+    & h1 {
+        color: #FFFF;
+        font-size: 5vw
+    }
+
+    & .redes {
+        button {
+            & img {
+                cursor: pointer;
+                border-radius: 10px;
+                transition: transform 0.2s ease-in-out;
+            }
+
+            & img:hover {
+                transform: scale(1.1);
+            }
+        }
+
+    }
+}
