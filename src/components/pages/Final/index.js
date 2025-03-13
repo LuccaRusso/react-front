@@ -43,7 +43,7 @@ function Final({ temporizador, reiniciarTimer }) {
 
         const sendData = async () => {
             try {
-                const response = await fetch('http://localhost:8090/point', {
+                const response = await fetch('https://valores-back-w3eu.onrender.com/point', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

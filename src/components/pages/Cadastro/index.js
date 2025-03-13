@@ -42,7 +42,7 @@ function Cadastro(props) {
     };
 
     try {
-      const response = await fetch(`http://localhost:8090/signup/${email}`, {
+      const response = await fetch(`https://valores-back-w3eu.onrender.com/signup/${email}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
